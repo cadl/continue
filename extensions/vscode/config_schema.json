@@ -848,6 +848,9 @@
             "properties": {
               "useLegacyCompletionsEndpoint": {
                 "type": "boolean"
+              },
+              "maxStopWords": {
+                "type": "integer"
               }
             }
           }

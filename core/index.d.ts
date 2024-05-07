@@ -292,6 +292,7 @@ export interface LLMOptions {
   apiBase?: string;
 
   useLegacyCompletionsEndpoint?: boolean;
+  maxStopWords?: number;
 
   // Azure options
   engine?: string;

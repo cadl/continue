@@ -45,6 +45,7 @@ class OpenAI extends BaseLLM {
   constructor(options: LLMOptions) {
     super(options);
     this.useLegacyCompletionsEndpoint = options.useLegacyCompletionsEndpoint;
+    this.maxStopWords = options.maxStopWords;
   }
 
   static providerName: ModelProvider = "openai";

@@ -59,4 +59,10 @@ To force usage of `chat/completions` instead of `completions` endpoint you can s
 "useLegacyCompletionsEndpoint": false
 ```
 
+Some Openai compatible server limit the size of stop sequence. To avoid exceeding these limit you can set
+
+```json
+"maxStopWords": 4
+```
+
 [View the source](https://github.com/continuedev/continue/blob/main/core/llm/llms/OpenAI.ts)
